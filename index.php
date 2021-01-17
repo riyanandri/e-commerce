@@ -6,11 +6,13 @@
     <title>E-Commerce</title>
 
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!--Fav Icon-->
-    <link rel="shortcut icon" href="assets/img/fav-icon.png">
+    <link rel="shortcut icon" href="img/fav-icon.png">
     <!--FontAwesome Icon-->
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <!--lightslider-->
+    <link rel="stylesheet" href="css/lightslider.css">
 </head>
 <body>
     <!--Navigation-->
@@ -32,7 +34,7 @@
         <!--Menu Bar-->
         <div class="navigation">
             <!--logo-->
-            <a href="#" class="logo"><img src="assets/img/logo.png" alt=""></a>
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
             <!--menu-->
             <ul class="menu">
                 <li><a href="#">SHOP</a>
@@ -123,9 +125,67 @@
         </div>
     </div>
 
+    <!--full slider-->
+    <ul id="adaptive" class="cs-hidden">
+        <!--box 1-->
+        <li class="item-a">
+            <!--box-->
+            <div class="full-slider-box f-slide-1">
+                <div class="f-slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Limited Offer</span>
+                        <strong>30% Off<br> With <font>Promo Code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--box 2-->
+        <li class="item-b">
+            <!--box-->
+            <div class="full-slider-box f-slide-2">
+                <div class="f-slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Limited Offer</span>
+                        <strong>30% Off<br> With <font>Promo Code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--box 3-->
+        <li class="item-c">
+            <!--box-->
+            <div class="full-slider-box f-slide-3">
+                <div class="f-slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Limited Offer</span>
+                        <strong>30% Off<br> With <font>Promo Code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!--box 4-->
+        <li class="item-d">
+            <!--box-->
+            <div class="full-slider-box f-slide-4">
+                <div class="f-slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Limited Offer</span>
+                        <strong>30% Off<br> With <font>Promo Code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul> 
+
     <!--jQuery-->
-    <script src="assets/js/JQuery.js"></script>
+    <script src="js/JQuery.js"></script>
     <!--js-->
-    <script src="assets/js/main.js"></script>
+    <script src="js/main.js"></script>
+    <!--lightslider-->
+    <script src="js/lightslider.js"></script>
 </body>
 </html>
